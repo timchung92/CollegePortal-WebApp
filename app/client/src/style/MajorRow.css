@@ -1,0 +1,18 @@
+.major-results {
+    display: flex;
+    flex-flow: row nowrap;
+    margin-left: 250px;
+  }
+
+  .title {
+    padding-left: 50px;
+  }
+
+  .title:hover {
+    background-color: LightYellow;
+  }
+
+  .plz-container {
+    display: flex;
+    flex-flow: row wrap;
+  }

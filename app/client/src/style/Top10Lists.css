@@ -1,0 +1,31 @@
+img {
+  object-fit: fill;
+}
+
+body {
+  background: none;
+}
+
+h4 {
+  text-align: left;
+}
+
+p {
+  text-align: left;
+}
+
+.option-btn-img {
+  padding: 0;
+  max-width: 128px;
+  max-height: 128px;
+}
+
+hr.narrow {
+  margin-top: 10px;
+  margin-bottom: 10px
+}
+
+.number-callout {
+  color: #001622;
+  font-weight: 500
+}

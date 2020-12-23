@@ -1,0 +1,94 @@
+
+/* This below snippet of code borrowed from https://www.w3schools.com/howto/howto_css_cards.asp*/
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* This below snippet of code borrowed from https://www.w3schools.com/howto/howto_css_cards.asp*/
+/* Add some padding inside the card container */
+.container {
+  padding: 4px 16px;
+}
+
+h5 {
+  text-align: center;
+}
+
+/* This below snippet of code borrowed from https://www.w3schools.com/howto/howto_css_cards.asp*/
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+  padding-left: 50px;
+}
+
+.emailText {
+  overflow: auto;
+}
+
+.prof-card {
+  height: 30%;
+  width: 20%;
+  border-radius: 5px 5px 0 0; /* Border radius attribute from https://www.w3schools.com/howto/howto_css_cards.asp**/
+  align-items: center;
+  text-align: center;
+  margin-left: 350px;
+  opacity: 1;
+}
+
+.john-card {
+  height: 30%;
+  width: 20%;
+  border-radius: 5px 5px 0 0; /* Border radius attribute from https://www.w3schools.com/howto/howto_css_cards.asp**/
+  align-items: center;
+  text-align: center;
+  margin-left: 350px;
+  opacity: 1;
+}
+
+.jan-card {
+  height: 30%;
+  width: 20%;
+  border-radius: 5px 5px 0 0; /* Border radius attribute from */
+  align-items: center;
+  text-align: center;
+  margin-left: 350px;
+}
+
+h4, p {
+  text-align: center;
+}
+
+
+/* This below snippet of code borrowed from https://www.w3schools.com/howto/howto_css_cards.asp*/
+/* Clear floats after the columns */
+.card-section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* This below snippet of code borrowed from https://www.w3schools.com/howto/howto_css_cards.asp*/
+/* Padding added by me*/
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+  padding-left: 5px;
+  padding-right: 30px;
+}
+
+/* This below snippet of code borrowed from https://www.w3schools.com/howto/howto_css_cards.asp*/
+/* Padding added by me */
+.card-section {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+  padding-left: 160px;
+  padding-right: 30px;
+}

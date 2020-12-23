@@ -1,0 +1,30 @@
+th, td {
+    border: groove;
+    padding: 10px;
+    width: 30px;
+    height:15px;
+}
+
+.tuitionResults {
+    display: flex;
+    flex-flow: row nowrap;
+    padding-left:80px;
+    padding-right:50px;
+    border-style: groove;
+    margin-left:70px;
+}
+
+.tuition_type {
+    padding-left:80px;
+    padding-right:90px;
+}
+
+.tuition_fees {
+    padding-left:80px;
+    padding-right:90px;
+}
+
+.url_fin_aid {
+    padding-left:80px;
+    padding-right:90px;
+}

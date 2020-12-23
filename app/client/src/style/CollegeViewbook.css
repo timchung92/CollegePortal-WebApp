@@ -1,0 +1,76 @@
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  height: auto;
+}
+
+
+.main-area {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  background: white;
+  opacity: 0.7;
+  padding-bottom: 50px;
+}
+
+.tuition-container {
+  align-items: center;
+}
+
+.tuitionz {
+  align-items: center;
+}
+
+.jumbotron {
+  opacity: 0.7;
+  padding: 30px;
+}
+
+.button {
+  background-color: #ddd;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+}
+
+.button:hover {
+  background-color: #f1f1f1;
+}
+
+
+.major-container {
+  flex-flow: row nowrap;
+  height: 50px;
+  overflow: auto;
+  align-items: center;
+}
+
+.button {
+  margin-left: 40px;
+  margin-top:10px;
+}
+
+h4 {
+  text-align: left;
+}
+
+
+.next-steps-container {
+  flex-flow: row nowrap;
+  align-items: center;
+  overflow: auto;
+}
+
+.results-container {
+  display: flex;
+  flex-flow: row nowrap;
+  height: 100%;
+}
